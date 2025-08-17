@@ -25,20 +25,12 @@
   flex-wrap: wrap;
   gap: 20px 20px;
   justify-content: center;
-  align-items: stretch;
-
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 25px;
-  justify-content: center;
-  align-items: start;
-  max-width: 1200px;
-  margin: 0 auto; */
+  align-items: center;
 }
 
 .cmp-card {
   background: #fff;
-  flex: 0 0 25%; /* for exactly 3 equal columns */
+  flex: 0 0 25%;
   border-radius: 16px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
   padding: 18px;
